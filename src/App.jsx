@@ -1,12 +1,14 @@
 
 import './App.css'
 import Counter from './components/Counter'
+import ToggleText from './components/ToggleText'
 
 function App() {
 
   return (
     <>
-      <Counter />
+      {/* <Counter /> */}
+      <ToggleText />
     </>
   )
 }
