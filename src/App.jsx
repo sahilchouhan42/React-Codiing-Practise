@@ -1,6 +1,7 @@
 
 import './App.css'
 import Counter from './components/Counter'
+import Input from './components/Input'
 import ToggleText from './components/ToggleText'
 
 function App() {
@@ -8,7 +9,8 @@ function App() {
   return (
     <>
       {/* <Counter /> */}
-      <ToggleText />
+      {/* <ToggleText /> */}
+      <Input />
     </>
   )
 }
