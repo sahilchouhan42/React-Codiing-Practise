@@ -2,6 +2,7 @@
 import './App.css'
 import Counter from './components/Counter'
 import Input from './components/Input'
+import TodoList from './components/TodoList'
 import ToggleText from './components/ToggleText'
 
 function App() {
@@ -10,7 +11,8 @@ function App() {
     <>
       {/* <Counter /> */}
       {/* <ToggleText /> */}
-      <Input />
+      {/* <Input /> */}
+      <TodoList />
     </>
   )
 }
