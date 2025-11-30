@@ -1,5 +1,6 @@
 
 import './App.css'
+import Accordian from './components/Accordian'
 import Counter from './components/Counter'
 import Input from './components/Input'
 import TodoList from './components/TodoList'
@@ -12,7 +13,8 @@ function App() {
       {/* <Counter /> */}
       {/* <ToggleText /> */}
       {/* <Input /> */}
-      <TodoList />
+      {/* <TodoList /> */}
+      <Accordian />
     </>
   )
 }
