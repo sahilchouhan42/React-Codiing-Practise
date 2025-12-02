@@ -4,6 +4,7 @@ import Accordian from './components/Accordian'
 import Counter from './components/Counter'
 import DarkMode from './components/DarkMode'
 import Input from './components/Input'
+import SearchList from './components/SearchList'
 import TodoList from './components/TodoList'
 import ToggleText from './components/ToggleText'
 
@@ -16,7 +17,8 @@ function App() {
       {/* <Input /> */}
       {/* <TodoList /> */}
       {/* <Accordian /> */}
-      <DarkMode />
+      {/* <DarkMode /> */}
+      <SearchList />
     </>
   )
 }
