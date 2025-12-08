@@ -7,6 +7,8 @@ import Input1 from './component/Input1'
 import Input2 from './component/Input2'
 import Password1 from './component/Password1'
 import Password2 from './component/Password2'
+import Todo1 from './component/Todo1'
+import Todo2 from './component/Todo2'
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -19,7 +21,9 @@ function App() {
       {/* <Input1 /> */}
       {/* <Input2 /> */}
       {/* <Password1 /> */}
-      <Password2 />
+      {/* <Password2 /> */}
+      {/* <Todo1 /> */}
+      <Todo2 />
     </>
   )
 }
