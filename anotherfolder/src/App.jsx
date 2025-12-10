@@ -11,6 +11,8 @@ import Todo1 from './component/Todo1'
 import Todo2 from './component/Todo2'
 import Color1 from './component/Color1'
 import Color2 from './component/Color2'
+import Login1 from './component/Login1'
+import Login2 from './component/Login2'
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -27,7 +29,9 @@ function App() {
       {/* <Todo1 /> */}
       {/* <Todo2 /> */}
       {/* <Color1 /> */}
-      <Color2 />
+      {/* <Color2 /> */}
+      {/* <Login1 /> */}
+      <Login2 />
     </>
   )
 }
