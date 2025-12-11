@@ -13,6 +13,8 @@ import Color1 from './component/Color1'
 import Color2 from './component/Color2'
 import Login1 from './component/Login1'
 import Login2 from './component/Login2'
+import Image1 from './component/Image1'
+import Image2 from './component/Image2'
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -31,7 +33,9 @@ function App() {
       {/* <Color1 /> */}
       {/* <Color2 /> */}
       {/* <Login1 /> */}
-      <Login2 />
+      {/* <Login2 /> */}
+      {/* <Image1 /> */}
+      <Image2 />
     </>
   )
 }
