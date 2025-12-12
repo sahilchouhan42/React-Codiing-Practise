@@ -15,6 +15,8 @@ import Login1 from './component/Login1'
 import Login2 from './component/Login2'
 import Image1 from './component/Image1'
 import Image2 from './component/Image2'
+import Quote1 from './component/Quote1'
+import Quote2 from './component/Quote2'
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -35,7 +37,9 @@ function App() {
       {/* <Login1 /> */}
       {/* <Login2 /> */}
       {/* <Image1 /> */}
-      <Image2 />
+      {/* <Image2 /> */}
+      {/* <Quote1 /> */}
+      <Quote2 />
     </>
   )
 }
