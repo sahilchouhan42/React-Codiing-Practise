@@ -17,6 +17,8 @@ import Image1 from './component/Image1'
 import Image2 from './component/Image2'
 import Quote1 from './component/Quote1'
 import Quote2 from './component/Quote2'
+import Clock1 from './component/Clock1'
+import Clock2 from './component/Clock2'
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -39,7 +41,9 @@ function App() {
       {/* <Image1 /> */}
       {/* <Image2 /> */}
       {/* <Quote1 /> */}
-      <Quote2 />
+      {/* <Quote2 /> */}
+      {/* <Clock1 /> */}
+      <Clock2 />
     </>
   )
 }
