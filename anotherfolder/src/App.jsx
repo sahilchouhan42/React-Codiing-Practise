@@ -19,6 +19,8 @@ import Quote1 from './component/Quote1'
 import Quote2 from './component/Quote2'
 import Clock1 from './component/Clock1'
 import Clock2 from './component/Clock2'
+import SearchList1 from './component/SearchList1'
+import SearchList2 from './component/SearchList2'
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -43,7 +45,9 @@ function App() {
       {/* <Quote1 /> */}
       {/* <Quote2 /> */}
       {/* <Clock1 /> */}
-      <Clock2 />
+      {/* <Clock2 /> */}
+      {/* <SearchList1 /> */}
+      <SearchList2 />
     </>
   )
 }
