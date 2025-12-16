@@ -22,7 +22,8 @@ import Clock2 from './component/Clock2'
 import SearchList1 from './component/SearchList1'
 import SearchList2 from './component/SearchList2'
 import Pagination1 from './component/Pagination1'
-import Pagination2 from './component/Pagination2'
+import Modal1 from './component/Modal1'
+import Modal2 from './component/Modal2'
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -50,7 +51,9 @@ function App() {
       {/* <Clock2 /> */}
       {/* <SearchList1 /> */}
       {/* <SearchList2 /> */}
-      <Pagination1 />
+      {/* <Pagination1 /> */}
+      {/* <Modal1 /> */}
+      <Modal2 />
     </>
   )
 }
