@@ -24,9 +24,15 @@ import SearchList2 from './component/SearchList2'
 import Pagination1 from './component/Pagination1'
 import Modal1 from './component/Modal1'
 import Modal2 from './component/Modal2'
+import Card1 from './component/Card1'
 
 function App() {
   // const [count, setCount] = useState(0)
+  const data = [
+    { title: "React", description: "UI Library" },
+    { title: "JS", description: "Logic Language" },
+    { title: "CSS", description: "Styling Language" }
+  ]
 
   return (
     <>
@@ -53,7 +59,12 @@ function App() {
       {/* <SearchList2 /> */}
       {/* <Pagination1 /> */}
       {/* <Modal1 /> */}
-      <Modal2 />
+      {/* <Modal2 /> */}
+      {
+        data.map((item, i)=>(
+          <Card1 key={i} title={item.title} description={item.description} />
+        ))
+      }
     </>
   )
 }
