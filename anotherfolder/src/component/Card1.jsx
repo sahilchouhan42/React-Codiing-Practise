@@ -1,10 +1,10 @@
 import React from 'react'
 
-const Card1 = ({title, description}) => {
+const Card1 = ({inc, dec}) => {
   return (
-    <div style={{border: "1px solid red", padding: "10px", margin: "10px", width: '400px', height: "200px"}}>
-      <h3>{title}</h3>
-      <h3>{description}</h3>
+    <div>
+      <button onClick={inc}>Inc</button>
+      <button onClick={dec}>dec</button>
     </div>
   )
 }

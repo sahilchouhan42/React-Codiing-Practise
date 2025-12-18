@@ -27,12 +27,12 @@ import Modal2 from './component/Modal2'
 import Card1 from './component/Card1'
 
 function App() {
-  // const [count, setCount] = useState(0)
-  const data = [
-    { title: "React", description: "UI Library" },
-    { title: "JS", description: "Logic Language" },
-    { title: "CSS", description: "Styling Language" }
-  ]
+  const [count, setCount] = useState(0)
+  // const data = [
+  //   { title: "React", description: "UI Library" },
+  //   { title: "JS", description: "Logic Language" },
+  //   { title: "CSS", description: "Styling Language" }
+  // ]
 
   return (
     <>
@@ -60,11 +60,13 @@ function App() {
       {/* <Pagination1 /> */}
       {/* <Modal1 /> */}
       {/* <Modal2 /> */}
-      {
+      {/* {
         data.map((item, i)=>(
           <Card1 key={i} title={item.title} description={item.description} />
         ))
-      }
+      } */}
+      <h1>{count}</h1>
+      <Card1 inc={()=>setCount(c=>c+1)} dec={()=>setCount(c=>c-1)} />
     </>
   )
 }
