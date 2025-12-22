@@ -25,6 +25,8 @@ import Pagination1 from './component/Pagination1'
 import Modal1 from './component/Modal1'
 import Modal2 from './component/Modal2'
 import Card1 from './component/Card1'
+import ThemeProvider from './component/ThemeProvider'
+import Header from './component/Header'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -65,8 +67,10 @@ function App() {
           <Card1 key={i} title={item.title} description={item.description} />
         ))
       } */}
-      <h1>{count}</h1>
-      <Card1 inc={()=>setCount(c=>c+1)} dec={()=>setCount(c=>c-1)} />
+      {/* <h1>{count}</h1> */}
+      {/* <Card1 inc={()=>setCount(c=>c+1)} dec={()=>setCount(c=>c-1)} /> */}
+      <ThemeProvider />
+
     </>
   )
 }
