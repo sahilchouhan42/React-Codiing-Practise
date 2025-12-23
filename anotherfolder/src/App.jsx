@@ -27,6 +27,8 @@ import Modal2 from './component/Modal2'
 import Card1 from './component/Card1'
 import ThemeProvider from './component/ThemeProvider'
 import Header from './component/Header'
+import CounterReducer from './component/CounterReducer'
+import CounterReducer2 from './CounterReducer2'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -69,7 +71,9 @@ function App() {
       } */}
       {/* <h1>{count}</h1> */}
       {/* <Card1 inc={()=>setCount(c=>c+1)} dec={()=>setCount(c=>c-1)} /> */}
-      <ThemeProvider />
+      {/* <ThemeProvider /> */}
+      {/* <CounterReducer /> */}
+      <CounterReducer2 />
 
     </>
   )
