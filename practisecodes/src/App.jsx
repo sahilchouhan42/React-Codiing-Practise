@@ -1,5 +1,6 @@
 
 import './App.css'
+import Clock from './components/Clock'
 import Input from './components/Input'
 
 function App() {
@@ -7,7 +8,8 @@ function App() {
 
   return (
     <>
-      <Input />
+      {/* <Input /> */}
+      <Clock />
     </>
   )
 }

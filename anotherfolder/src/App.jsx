@@ -29,6 +29,7 @@ import ThemeProvider from './component/ThemeProvider'
 import Header from './component/Header'
 import CounterReducer from './component/CounterReducer'
 import CounterReducer2 from './CounterReducer2'
+import Square from './component/Square'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -73,7 +74,8 @@ function App() {
       {/* <Card1 inc={()=>setCount(c=>c+1)} dec={()=>setCount(c=>c-1)} /> */}
       {/* <ThemeProvider /> */}
       {/* <CounterReducer /> */}
-      <CounterReducer2 />
+      {/* <CounterReducer2 /> */}
+      <Square />
 
     </>
   )
